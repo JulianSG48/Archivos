@@ -8,45 +8,45 @@ Código:
 
 Explicación:
 
-![image](https://github.com/user-attachments/assets/fa1461b5-390b-4dbe-aae3-b52148c59bfb)
+1. ![image](https://github.com/user-attachments/assets/fa1461b5-390b-4dbe-aae3-b52148c59bfb)
 
-Importo la biblioteca csv, que permite leer y escribir archivos en formato csv
+1. Importo la biblioteca csv, que permite leer y escribir archivos en formato csv
 
-![image](https://github.com/user-attachments/assets/9c860ca4-50a1-4792-9969-0daa8bb78b97)
+2. ![image](https://github.com/user-attachments/assets/9c860ca4-50a1-4792-9969-0daa8bb78b97)
 
-Defino la variable archivo_csv con el archivo donde están guardados los datos a investigar. 
+2. Defino la variable archivo_csv con el archivo donde están guardados los datos a investigar. 
 
-![image](https://github.com/user-attachments/assets/30833ec5-dd70-436d-b486-23b8a7212b33)
+3. ![image](https://github.com/user-attachments/assets/30833ec5-dd70-436d-b486-23b8a7212b33)
 
-Inicio la variable contador con 0, que me permitirá contar cuántas compras se realizaron 
+3. Inicio la variable contador con 0, que me permitirá contar cuántas compras se realizaron 
 en el país buscado
 
-![image](https://github.com/user-attachments/assets/dfa0a1a4-34d1-4035-b2fd-81f08af0323c)
+4. ![image](https://github.com/user-attachments/assets/dfa0a1a4-34d1-4035-b2fd-81f08af0323c)
 
-Abro el archivo en modo lectura con codificación utf-8 para evitar problemas con caracteres
+4. Abro el archivo en modo lectura con codificación utf-8 para evitar problemas con caracteres
 especiales
 
-![image](https://github.com/user-attachments/assets/733dc05f-f5e0-4dd9-9e8e-d2499cd8e9db)
+5. ![image](https://github.com/user-attachments/assets/733dc05f-f5e0-4dd9-9e8e-d2499cd8e9db)
 
-La función csv.reader(archivo) crea un objeto que permite leer el contenido línea por línea
+5. La función csv.reader(archivo) crea un objeto que permite leer el contenido línea por línea
 como una lista
 
-![image](https://github.com/user-attachments/assets/3f39304a-1924-4277-ae10-1c84c869150d)
+6. ![image](https://github.com/user-attachments/assets/3f39304a-1924-4277-ae10-1c84c869150d)
 
-La función next(lector) lee la primera línea del archivo, en la cual están los nombres de las columnas,
+6. La función next(lector) lee la primera línea del archivo, en la cual están los nombres de las columnas,
 estos datos se almacenan en la variable Encabezados
 encabezados.index("Country") busca el índice de la columna "Country" para saber en qué posición 
 se encuentra la información del país buscado 
 
-![image](https://github.com/user-attachments/assets/24e5ec1b-77fc-4d34-b668-770a538f163a)
+7. ![image](https://github.com/user-attachments/assets/24e5ec1b-77fc-4d34-b668-770a538f163a)
 
-Con el ciclo for recorro cada fila del archivo exceptuando los encabezados 
+7. Con el ciclo for recorro cada fila del archivo exceptuando los encabezados 
 fila[indice_pais] obtiene el nombre del país en la fila nombrada. Si el país coincide 
 con la busqueda, se suma 1 al contador
 
-![image](https://github.com/user-attachments/assets/041504ea-05f7-4e9f-8995-6aec91a89f5c)
+8. ![image](https://github.com/user-attachments/assets/041504ea-05f7-4e9f-8995-6aec91a89f5c)
 
-Se muestra la cantidad de compras realizadas en el país que el usuario haya buscado
+8. Se muestra la cantidad de compras realizadas en el país que el usuario haya buscado
 
 Ejemplos de salida en terminal:
 
