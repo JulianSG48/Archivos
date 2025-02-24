@@ -33,6 +33,41 @@ como una lista
 
 ![image](https://github.com/user-attachments/assets/3f39304a-1924-4277-ae10-1c84c869150d)
 
+La función next(lector) lee la primera línea del archivo, en la cual están los nombres de las columnas,
+estos datos se almacenan en la variable Encabezados
+encabezados.index("Country") busca el índice de la columna "Country" para saber en qué posición 
+se encuentra la información del país buscado 
+
+![image](https://github.com/user-attachments/assets/24e5ec1b-77fc-4d34-b668-770a538f163a)
+
+Con el ciclo for recorro cada fila del archivo exceptuando los encabezados 
+fila[indice_pais] obtiene el nombre del país en la fila nombrada. Si el país coincide 
+con la busqueda, se suma 1 al contador
+
+![image](https://github.com/user-attachments/assets/041504ea-05f7-4e9f-8995-6aec91a89f5c)
+
+Se muestra la cantidad de compras realizadas en el país que el usuario haya buscado
+
+Ejemplos de salida en terminal:
+
+![image](https://github.com/user-attachments/assets/8dd9c283-2750-4318-9556-cb2dccb89bc9)
+![image](https://github.com/user-attachments/assets/54bd703e-9c74-43ae-931b-825ea70f239f)
+![image](https://github.com/user-attachments/assets/08f5d48b-e977-47d1-9c47-d1c1a0d7c9c4)
+![image](https://github.com/user-attachments/assets/7c665e8c-54c5-4171-be43-c40c32ac9569)
+![image](https://github.com/user-attachments/assets/c3ff971b-2e61-4f2b-b8e3-3ab2906f3415)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
